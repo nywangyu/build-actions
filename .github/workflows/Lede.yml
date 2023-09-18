@@ -24,7 +24,7 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: '360_v6'
         type: choice
         options:
           - 'aarch64'
@@ -33,7 +33,7 @@ on:
           - 'p2w_r619ac-128m'
           - 'phicomm_k2p'
           - 'x86_32'
-          - 'x86_64'
+          - '360_v6'
           - 'xiaomi_mi-router-4a-gigabit'
           - 'xiaomi_redmi-router-ac2100'
           - 'xiaomi_redmi-router-ax6s'
