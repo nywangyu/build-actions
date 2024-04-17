@@ -159,7 +159,7 @@ jobs:
     - name: 下载"${{ matrix.target }}-${{ github.event.inputs.REPO_BRANCH }}"源码
       working-directory: /${{ env.DIY_WORK }}
       run: |
-        git clone -b "${REPO_BRANCH}" --single-branch "${REPO_URL}" openwrt
+        git clone -b openwrt-21.02 --single-branch https://github.com/hanwckf/immortalwrt-mt798x openwrt
         ln -sf /${{ env.DIY_WORK }}/openwrt ${GITHUB_WORKSPACE}/openwrt
         cp -Rf ${GITHUB_WORKSPACE}/build ${GITHUB_WORKSPACE}/openwrt/build
         chmod -R +x ${GITHUB_WORKSPACE}/openwrt/build
