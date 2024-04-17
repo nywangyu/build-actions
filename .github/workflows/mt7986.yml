@@ -3,7 +3,7 @@
 #
 
 
-name: 编译主程序
+name: 编译mt7986
 on:
   push:
     branches:
