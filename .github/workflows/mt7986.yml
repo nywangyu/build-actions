@@ -89,7 +89,7 @@ on:
 #   - cron: 35 18 * * *
 
 env:
-  GITHUB_LINK: https://github.com/${{github.repository}}
+  GITHUB_LINK: https://github.com/hanwckf/immortalwrt-mt798x
   GIT_ACTOR: ${{github.actor}}
   GIT_REPOSITORY: ${{github.repository}}
   RUN_NUMBER: ${{github.run_number}}
