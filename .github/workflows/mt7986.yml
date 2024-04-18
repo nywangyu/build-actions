@@ -89,9 +89,9 @@ on:
 #   - cron: 35 18 * * *
 
 env:
-  GITHUB_LINK: https://github.com/hanwckf/immortalwrt-mt798x
-  GIT_ACTOR: ${{github.actor}}
-  GIT_REPOSITORY: ${{github.repository}}
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  GIT_ACTOR: hanwckf
+  REPO_BRANCH: openwrt-21.02
   RUN_NUMBER: ${{github.run_number}}
   RUN_WORKFLOW: ${{github.workflow}}
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
@@ -158,7 +158,7 @@ jobs:
     - name: 下载"${{ matrix.target }}-${{ github.event.inputs.REPO_BRANCH }}"源码
       working-directory: /${{ env.DIY_WORK }}
       run: |
-        git clone -b openwrt-21.02 --single-branch https://github.com/hanwckf/immortalwrt-mt798x openwrt
+        git clone -b "${REPO_BRANCH}" --single-branch "${REPO_URL}" openwrt
         ln -sf /${{ env.DIY_WORK }}/openwrt ${GITHUB_WORKSPACE}/openwrt
         cp -Rf ${GITHUB_WORKSPACE}/build ${GITHUB_WORKSPACE}/openwrt/build
         chmod -R +x ${GITHUB_WORKSPACE}/openwrt/build
