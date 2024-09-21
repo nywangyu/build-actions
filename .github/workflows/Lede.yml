@@ -14,17 +14,16 @@ on:
   workflow_dispatch:
     inputs:
       REPO_BRANCH:
-        description: '（大雕源码）请选择源码分支'
+        description: '大雕源码'
         required: true
         default: 'master'
         type: choice
         options:
           - 'master'
-          - 'gl-ax1800'
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: '360_v6'
+        default: 'x86_64'
         type: choice
         options:
           - 'aarch64'
@@ -33,7 +32,7 @@ on:
           - 'p2w_r619ac-128m'
           - 'phicomm_k2p'
           - 'x86_32'
-          - '360_v6'
+          - 'x86_64'
           - 'xiaomi_mi-router-4a-gigabit'
           - 'xiaomi_redmi-router-ac2100'
           - 'xiaomi_redmi-router-ax6s'
@@ -131,7 +130,7 @@ jobs:
         fi
     
     - name: 准备结束
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: 检测文件和对比上游版本
       run: |
