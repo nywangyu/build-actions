@@ -31,11 +31,14 @@ CONFIG_PACKAGE_autosamba=y
 CONFIG_PACKAGE_avahi-dbus-daemon=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_bzip2=y
+# CONFIG_PACKAGE_coreutils-base64 is not set
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_coreutils-stat=y
 CONFIG_PACKAGE_coreutils-stty=y
 CONFIG_PACKAGE_dbus=y
 CONFIG_PACKAGE_ddnsto=y
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
 CONFIG_PACKAGE_docker-compose=y
 CONFIG_PACKAGE_iptables-mod-nat-extra=y
 CONFIG_PACKAGE_ipv6helper=y
@@ -68,11 +71,11 @@ CONFIG_PACKAGE_libattr=y
 CONFIG_PACKAGE_libavahi-client=y
 CONFIG_PACKAGE_libavahi-dbus-support=y
 CONFIG_PACKAGE_libbz2=y
-CONFIG_PACKAGE_libcap=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
 CONFIG_PACKAGE_libdaemon=y
 CONFIG_PACKAGE_libdbus=y
+# CONFIG_PACKAGE_libev is not set
 CONFIG_PACKAGE_libexpat=y
 CONFIG_PACKAGE_libgmp=y
 CONFIG_PACKAGE_libgnutls=y
@@ -82,20 +85,24 @@ CONFIG_PACKAGE_libnettle=y
 CONFIG_PACKAGE_libnl-core=y
 CONFIG_PACKAGE_libnl-genl=y
 CONFIG_PACKAGE_libparted=y
+# CONFIG_PACKAGE_libpcre2 is not set
 CONFIG_PACKAGE_libpopt=y
 CONFIG_PACKAGE_libreadline=y
 CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libsmartcols=y
+# CONFIG_PACKAGE_libsodium is not set
 CONFIG_PACKAGE_libstdcpp=y
 CONFIG_PACKAGE_libtasn1=y
 CONFIG_PACKAGE_libtirpc=y
+# CONFIG_PACKAGE_libudns is not set
 CONFIG_PACKAGE_liburing=y
-CONFIG_PACKAGE_libuv=y
-CONFIG_PACKAGE_libwebsockets-full=y
 CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_libzstd=y
 CONFIG_PACKAGE_lsblk=y
+# CONFIG_PACKAGE_lua-neturl is not set
 CONFIG_PACKAGE_luci-app-argon-config=y
+# CONFIG_PACKAGE_luci-app-autoreboot is not set
+# CONFIG_PACKAGE_luci-app-autoupdate is not set
 CONFIG_PACKAGE_luci-app-ddnsto=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-ikoolproxy=y
@@ -104,6 +111,7 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 CONFIG_PACKAGE_luci-app-lucky=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-quickstart=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
 CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ddnsto-zh-cn=y
@@ -114,8 +122,11 @@ CONFIG_PACKAGE_luci-lib-taskd=y
 CONFIG_PACKAGE_luci-lib-xterm=y
 CONFIG_PACKAGE_lucky=y
 CONFIG_PACKAGE_mdadm=y
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_mosdns is not set
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_quickstart=y
+# CONFIG_PACKAGE_resolveip is not set
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
@@ -164,14 +175,21 @@ CONFIG_PACKAGE_shadow-userdel=y
 CONFIG_PACKAGE_shadow-usermod=y
 CONFIG_PACKAGE_shadow-utils=y
 CONFIG_PACKAGE_shadow-vipw=y
+# CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
+# CONFIG_PACKAGE_shadowsocks-rust-ssserver is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_simple-obfs is not set
 CONFIG_PACKAGE_smartd=y
 CONFIG_PACKAGE_smartmontools=y
 CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_taskd=y
-CONFIG_PACKAGE_ttyd=y
+# CONFIG_PACKAGE_tcping is not set
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_wireless-tools=y
 CONFIG_PACKAGE_wsdd2=y
+# CONFIG_PACKAGE_xray-core is not set
 CONFIG_PACKAGE_xz=y
 CONFIG_PACKAGE_xz-utils=y
 CONFIG_PACKAGE_zram-swap=y
