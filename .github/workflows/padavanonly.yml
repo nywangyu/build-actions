@@ -24,13 +24,13 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: '2305-360-t7-108M'
+        default: 'jdcloud_re-cp-03'
         type: choice
         options:
           - '2410-360-t7-108M'
           - '2410-cudy-tr3000-v1'
           - '2410-jcg-q30'
-          - '2305-360-t7-108M'
+          - 'jdcloud_re-cp-03'
           - '2305-clt-r30b1-112M'
           - '2305-cmcc-rax3000m-emmc'
           - '2305-jcg-q30'
