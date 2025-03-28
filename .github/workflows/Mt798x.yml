@@ -25,10 +25,10 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: '360-t7-108M'
+        default: 'jdcloud_re-cs-05'
         type: choice
         options:
-          - 'glinet-gl-xe3000'
+          - 'jdcloud_re-cs-05'
           - 'huasifei-wh3000-emmc'
           - '360-t7-108M'
           - 'clt-r30b1-112M'
