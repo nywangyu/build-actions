@@ -25,10 +25,10 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: '360-t7-108M'
+        default: '360v6'
         type: choice
         options:
-          - '360-t7-108M'
+          - '360v6'
           - 'clt-r30b1-112M'
           - 'cudy_tr3000-v1'
           - 'cmcc-rax3000m-emmc'
