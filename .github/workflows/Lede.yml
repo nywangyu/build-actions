@@ -27,7 +27,7 @@ on:
         type: choice
         options:
           - 'phicomm_n1'
-          - 'phicomm_k2p'
+          - '360v6'
           - 'phicomm_k3'
           - 'x86_64'
           - 'JDCloud-AX6000-Baili'
