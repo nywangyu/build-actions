@@ -1,6 +1,6 @@
 CONFIG_TARGET_qualcommax=y
 CONFIG_TARGET_qualcommax_ipq60xx=y
-CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_8devices_mango-dvk=y
+CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_qihoo_360v6=y
 CONFIG_GNUTLS_ALPN=y
 CONFIG_GNUTLS_ANON=y
 CONFIG_GNUTLS_DTLS_SRTP=y
