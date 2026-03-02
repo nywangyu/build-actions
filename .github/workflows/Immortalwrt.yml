@@ -25,10 +25,10 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: '360v6'
+        default: 'jdcloud_re-cp-03'
         type: choice
         options:
-          - 'x86_64'
+          - 'jdcloud_re-cp-03'
           - '360v6'
       INFORMATION_NOTICE:
         description: 'Telegram或pushplus信息通知'
