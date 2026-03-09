@@ -20,7 +20,7 @@ on:
         type: choice
         options:
           - 'openwrt-24.10'
-          - 'openwrt-23.05'
+          - 'openwrt-25.12'
           - 'master'
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
